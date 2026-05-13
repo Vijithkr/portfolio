@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vijith K R | Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #0f0f0f;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .glass {
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .hover-up {
+      transition: 0.3s ease;
+    }
+
+    .hover-up:hover {
+      transform: translateY(-8px);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="fixed w-full top-0 z-50 bg-black/70 backdrop-blur-md border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-wide">Vijith K R</h1>
+
+      <div class="space-x-6 hidden md:flex">
+        <a href="#about" class="hover:text-gray-400">About</a>
+        <a href="#works" class="hover:text-gray-400">Works</a>
+        <a href="#skills" class="hover:text-gray-400">Skills</a>
+        <a href="#contact" class="hover:text-gray-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center text-center px-6">
+    <div>
+      <p class="uppercase tracking-[6px] text-gray-400 mb-4">
+        Creative Director • Content Writer
+      </p>
+
+      <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+        Vijith K R
+      </h1>
+
+      <p class="max-w-2xl mx-auto text-gray-300 text-lg mb-8">
+        Crafting narratives that connect audiences through storytelling,
+        visual direction, and creative strategy.
+      </p>
+
+      <div class="flex gap-4 justify-center">
+        <a href="#works"
+          class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:opacity-80 transition">
+          View Portfolio
+        </a>
+
+        <a href="#contact"
+          class="border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition">
+          Contact Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold mb-10">About</h2>
+
+      <div class="glass rounded-3xl p-8">
+        <p class="text-gray-300 leading-8 text-lg">
+          Creative Director and Content Strategist with hands-on experience in
+          ad film production, documentary direction, script writing, and brand storytelling.
+          Skilled at developing concepts from brief to final execution across short form,
+          long form, and branded content formats.
+        </p>
+
+        <p class="text-gray-400 mt-6 leading-8">
+          Currently pursuing MSc Electronic Media at Pondicherry University with
+          a strong passion for storytelling, media production, and creative communication.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works -->
+  <section id="works" class="py-24 px-6 bg-[#151515]">
+    <div class="max-w-7xl mx-auto">
+
+      <h2 class="text-4xl font-bold mb-14">Featured Works</h2>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Project Card -->
+        <div class="glass rounded-3xl overflow-hidden hover-up">
+          <div class="h-56 bg-gray-800"></div>
+
+          <div class="p-6">
+            <p class="text-sm text-gray-400 mb-2">Writer & Director</p>
+            <h3 class="text-2xl font-semibold mb-4">Emma Mattress</h3>
+
+            <p class="text-gray-300 mb-5">
+              Conceptualized and directed a one-minute brand film for Emma The Sleep Company.
+            </p>
+
+            <p class="italic text-gray-400">
+              “A broken heart can be fixed, but not your sleep.”
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Card -->
+        <div class="glass rounded-3xl overflow-hidden hover-up">
+          <div class="h-56 bg-gray-800"></div>
+
+          <div class="p-6">
+            <p class="text-sm text-gray-400 mb-2">Writer & Director</p>
+            <h3 class="text-2xl font-semibold mb-4">Bumble Advertisement</h3>
+
+            <p class="text-gray-300 mb-5">
+              Wrote and directed a creative advertisement campaign for Bumble.
+            </p>
+
+            <p class="italic text-gray-400">
+              “Love is a language. We help you read it.”
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Card -->
+        <div class="glass rounded-3xl overflow-hidden hover-up">
+          <div class="h-56 bg-gray-800"></div>
+
+          <div class="p-6">
+            <p class="text-sm text-gray-400 mb-2">Writer & Director</p>
+            <h3 class="text-2xl font-semibold mb-4">
+              Kadalas Ke Phool
+            </h3>
+
+            <p class="text-gray-300">
+              Promotional video for Pondicherry University Film Festival 2026.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Card -->
+        <div class="glass rounded-3xl overflow-hidden hover-up">
+          <div class="h-56 bg-gray-800"></div>
+
+          <div class="p-6">
+            <p class="text-sm text-gray-400 mb-2">Director</p>
+            <h3 class="text-2xl font-semibold mb-4">
+              Definitely a Cup of Tea
+            </h3>
+
+            <p class="text-gray-300">
+              Documentary project directed from concept development to final execution.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Card -->
+        <div class="glass rounded-3xl overflow-hidden hover-up">
+          <div class="h-56 bg-gray-800"></div>
+
+          <div class="p-6">
+            <p class="text-sm text-gray-400 mb-2">Content Writer</p>
+            <h3 class="text-2xl font-semibold mb-4">
+              Beyond the Kilometres
+            </h3>
+
+            <p class="text-gray-300">
+              Worked on narrative development and documentary storytelling.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Card -->
+        <div class="glass rounded-3xl overflow-hidden hover-up">
+          <div class="h-56 bg-gray-800"></div>
+
+          <div class="p-6">
+            <p class="text-sm text-gray-400 mb-2">
+              Writer & Floor Manager
+            </p>
+
+            <h3 class="text-2xl font-semibold mb-4">
+              Samvadha Vaadham
+            </h3>
+
+            <p class="text-gray-300">
+              Multi-camera studio production involving script writing and floor coordination.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+
+      <h2 class="text-4xl font-bold mb-14">Skills</h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <div class="glass p-6 rounded-2xl">Creative Direction</div>
+        <div class="glass p-6 rounded-2xl">Content Strategy</div>
+        <div class="glass p-6 rounded-2xl">Script Writing</div>
+        <div class="glass p-6 rounded-2xl">Brand Storytelling</div>
+        <div class="glass p-6 rounded-2xl">Documentary Direction</div>
+        <div class="glass p-6 rounded-2xl">Ad Film Production</div>
+        <div class="glass p-6 rounded-2xl">Content Writing</div>
+        <div class="glass p-6 rounded-2xl">Multi Camera Production</div>
+        <div class="glass p-6 rounded-2xl">Shoot Planning</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="py-24 px-6 bg-[#151515]">
+    <div class="max-w-5xl mx-auto">
+
+      <h2 class="text-4xl font-bold mb-14">Education</h2>
+
+      <div class="space-y-8">
+
+        <div class="glass p-6 rounded-2xl">
+          <h3 class="text-2xl font-semibold">
+            Pondicherry University
+          </h3>
+          <p class="text-gray-400">
+            MSc Electronic Media • 2024 – 2026
+          </p>
+        </div>
+
+        <div class="glass p-6 rounded-2xl">
+          <h3 class="text-2xl font-semibold">
+            St. Mary's College, Sulthan Bathery
+          </h3>
+          <p class="text-gray-400">
+            Bachelor of Computer Applications • 2020 – 2023
+          </p>
+        </div>
+
+        <div class="glass p-6 rounded-2xl">
+          <h3 class="text-2xl font-semibold">
+            GVHSS Mananthavady
+          </h3>
+          <p class="text-gray-400">
+            Commerce with Computer Application • 2018 – 2020
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+
+      <h2 class="text-4xl font-bold mb-6">Contact</h2>
+
+      <p class="text-gray-300 text-lg mb-10">
+        Let’s create stories that leave an impact.
+      </p>
+
+      <div class="glass rounded-3xl p-10">
+
+        <p class="mb-4 text-lg">
+          📧 vijithkr.contact@gmail.com
+        </p>
+
+        <p class="mb-8 text-gray-400">
+          📍 Wayanad, Kerala
+        </p>
+
+        <form class="space-y-4">
+
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full p-4 rounded-xl bg-[#1d1d1d] border border-gray-700 outline-none"
+          />
+
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full p-4 rounded-xl bg-[#1d1d1d] border border-gray-700 outline-none"
+          />
+
+          <textarea
+            rows="5"
+            placeholder="Your Message"
+            class="w-full p-4 rounded-xl bg-[#1d1d1d] border border-gray-700 outline-none"
+          ></textarea>
+
+          <button
+            class="bg-white text-black px-8 py-3 rounded-full font-semibold hover:opacity-80 transition">
+            Send Message
+          </button>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 py-8 text-center text-gray-500">
+    Designed for creative storytelling and professional impact.
+  </footer>
+
+</body>
+</html>
+He gives me the code
